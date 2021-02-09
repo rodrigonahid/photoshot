@@ -241,6 +241,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .feature-card i {
     font-size: 4rem;
@@ -327,6 +328,7 @@ a{
 }
 .signature{
     color: #212529;
+    margin-bottom: 1rem;
 }
 /* 
 *
@@ -345,6 +347,9 @@ a{
         flex-direction: column;
         padding:.5rem;
         width: 100%;
+    }
+    .nav-btn{
+        transform: translateY(-1000%);
     }
     .toggler{
         display: flex;
